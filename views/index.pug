@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  each message in messages
+    h2= message.user
+    p= message.text
+    p= message.added
